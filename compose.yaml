@@ -1,0 +1,12 @@
+﻿services:
+  workerservice1:
+    image: workerservice1
+    build:
+      context: .
+      dockerfile: WorkerService1/Dockerfile
+
+  trottinative.webapplication:
+    image: trottinative.webapplication
+    build:
+      context: .
+      dockerfile: TrottiNative.WebApplication/Dockerfile

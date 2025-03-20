@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trotinative.BigBalllMud.Tests", "Trotinative.BigBalllMud.Tests\Trotinative.BigBalllMud.Tests.csproj", "{7E598411-5CB1-416D-BEA7-5F1DD64DE5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrotiNative.WorkerService1", "TrotiNative.WorkerService1\TrotiNative.WorkerService1.csproj", "{4A4C9683-C756-47DA-A700-2AAC6EFCA8CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{230AF7DC-9454-4DDE-8FF8-F66BD6BFC157}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrotiNative.WebApplication", "TrotiNative.WebApplication\TrotiNative.WebApplication.csproj", "{D1C938E0-B32A-46B1-A771-E3614B57C6B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E598411-5CB1-416D-BEA7-5F1DD64DE5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E598411-5CB1-416D-BEA7-5F1DD64DE5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E598411-5CB1-416D-BEA7-5F1DD64DE5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E598411-5CB1-416D-BEA7-5F1DD64DE5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4C9683-C756-47DA-A700-2AAC6EFCA8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4C9683-C756-47DA-A700-2AAC6EFCA8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4C9683-C756-47DA-A700-2AAC6EFCA8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4C9683-C756-47DA-A700-2AAC6EFCA8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C938E0-B32A-46B1-A771-E3614B57C6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C938E0-B32A-46B1-A771-E3614B57C6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C938E0-B32A-46B1-A771-E3614B57C6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C938E0-B32A-46B1-A771-E3614B57C6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

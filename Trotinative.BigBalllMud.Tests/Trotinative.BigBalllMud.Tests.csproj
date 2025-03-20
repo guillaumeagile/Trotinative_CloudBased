@@ -7,8 +7,6 @@
 
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
-        <AssemblyName>Trotinative.CloudBased.BigBalllMud.Tests</AssemblyName>
-        <RootNamespace>Trotinative.CloudBased.BigBalllMud.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
