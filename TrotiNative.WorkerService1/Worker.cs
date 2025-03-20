@@ -1,4 +1,4 @@
-namespace TrotiNative.WorkerService1;TrotiNative.
+namespace TrotiNative.WorkerService1;
 
 public class Worker : BackgroundService
 {
