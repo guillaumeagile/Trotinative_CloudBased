@@ -10,6 +10,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AwesomeAssertions" Version="8.0.2" />
+        <PackageReference Include="AwesomeAssertions.Json" Version="8.0.0" />
         <PackageReference Include="coverlet.collector" Version="6.0.0"/>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
         <PackageReference Include="xunit" Version="2.5.3"/>
@@ -21,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\TrotiNative.WebApplication\TrotiNative.WebApplication.csproj" />
       <ProjectReference Include="..\TrotiNative.WorkerService1\TrotiNative.WorkerService1.csproj" />
     </ItemGroup>
 

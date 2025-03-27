@@ -1,12 +1,24 @@
-using TrotiNative.WorkerService1;
+using FluentAssertions;
+using Microsoft.AspNetCore.Mvc;
+using TrotiNative.WebApplication.Controllers;
+
 
 namespace Trotinative.BigBalllMud.Tests;
 
-public class UnitTest1
+public class TrotteControllerTest
 {
     [Fact]
-    public void Test1()
+    public void SimpleTest()
     {
-        var sut = new Class1();
+        var sut = new TrotteController();
+
+        var actual = sut.Get();
+
+        var resultOk = actual.Result.Should().BeAssignableTo<OkObjectResult>().Subject;
+        
+        var value = (resultOk) .Value.Should().BeAssignableTo<Trotte>().Subject;
+        value.estDisponible.Should().BeTrue();
+        value.numero.Should().Be("000");
+
     }
 }
