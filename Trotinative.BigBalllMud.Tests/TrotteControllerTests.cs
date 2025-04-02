@@ -1,6 +1,7 @@
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using TrotiNative.Locations.WebApplication.Controllers;
+using TrotiNative.ParcDeLocation;
 using TrotiNative.SharedKernel;
 
 
@@ -8,12 +9,14 @@ namespace Trotinative.BigBalllMud.Tests;
 
 public class TrotteControllerTests
 {
-    [Fact(Skip = "design à faire évoluer")]
+    [Fact()]
     public void DevraitRetournerLaPremiereTrotteDispo()
-    {
-        var sut = new TrotteController();
-
-      //  var parc = new Parc();
+    { 
+        var parc = new Parc();
+        var sut = new TrotteController( parc);
+        
+     
+        parc.AjouteTrotte(new Trotte("000", true));
         
         var actual = sut.RetourneLaPremiereTrotteDispo();
 
@@ -29,7 +32,8 @@ public class TrotteControllerTests
     [Fact]
     public void DevraitDireQuelleTrotteEstDisponibleSiLeParcNeContientAucune()
     {
-        var sut = new TrotteController();
+        var parc = new Parc();
+        var sut = new TrotteController(parc);
 
         var actual = sut.RetourneLaPremiereTrotteDispo();
 

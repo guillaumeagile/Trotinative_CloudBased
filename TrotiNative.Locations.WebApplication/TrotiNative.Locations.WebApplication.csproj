@@ -24,4 +24,8 @@
       <ProjectReference Include="..\TrotiNative.SharedKernel\TrotiNative.SharedKernel.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Model\ValueObjects\" />
+    </ItemGroup>
+
 </Project>
