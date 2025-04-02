@@ -1,7 +1,7 @@
 using TrotiNative.ParcDeLocation;
 using TrotiNative.SharedKernel;
 
-namespace TrotiNative.Locations.WebApplication.Aggregates;
+namespace TrotiNative.Locations.WebApplication.Model.Aggregates;
 
 public class PreneurDesReservations(IParc parc)
 {

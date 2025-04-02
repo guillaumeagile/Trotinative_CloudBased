@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using TrotiNative.Locations.WebApplication.Aggregates;
+using TrotiNative.Locations.WebApplication.Model.Aggregates;
+using TrotiNative.Locations.WebApplication.Model.Entities;
 using TrotiNative.ParcDeLocation;
 using TrotiNative.SharedKernel;
 
