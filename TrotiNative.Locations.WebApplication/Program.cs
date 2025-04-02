@@ -1,4 +1,4 @@
-namespace TrotiNative.WebApplication;
+namespace TrotiNative.Locations.WebApplication;
 
 internal class Program
 {

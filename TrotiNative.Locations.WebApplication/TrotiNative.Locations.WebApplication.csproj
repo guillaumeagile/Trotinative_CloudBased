@@ -5,8 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <AssemblyName>TrotiNative.WebApplication</AssemblyName>
-        <RootNamespace>TrotiNative.WebApplication</RootNamespace>
+        <PackageId>TrotiNative.Locations.WebApplication</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +17,11 @@
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TrotiNative.ParcDeLocation\TrotiNative.ParcDeLocation.csproj" />
+      <ProjectReference Include="..\TrotiNative.SharedKernel\TrotiNative.SharedKernel.csproj" />
     </ItemGroup>
 
 </Project>

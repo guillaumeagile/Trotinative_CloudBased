@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TrotiNative.WebApplication\TrotiNative.WebApplication.csproj" />
+      <ProjectReference Include="..\TrotiNative.Locations.WebApplication\TrotiNative.Locations.WebApplication.csproj" />
       <ProjectReference Include="..\TrotiNative.WorkerService1\TrotiNative.WorkerService1.csproj" />
     </ItemGroup>
 
